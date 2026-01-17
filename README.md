@@ -14,7 +14,7 @@ This implementation adds 4 new extension symbols:
 
 ## Build
 
-To build the interpreter, the only thing needed is to call make on the preoject's root directory:
+To build the interpreter, the only thing needed is to call make on the project's root directory:
 
 ```bash
 make
@@ -30,6 +30,6 @@ After compiled, you will have an executable file, that you can use to run any **
 ./bf main.bf
 ```
 
-> ![TIP] If no arguments is set, the executable will look for `./main.bf`, and if there is more than one argument, only the last one will be used as path for script file.
+> [!TIP] If no arguments is set, the executable will look for `./main.bf`, and if there is more than one argument, only the last one will be used as path for script file.
 
 You can also pass `-p` option for the executable, and it will print the source code with a cool debug highligher provided by [lex.h](https://github.com/Raffa064/lex.h).

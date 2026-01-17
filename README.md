@@ -1,16 +1,16 @@
 # Brain F*ck
 
 Bf is a esolang that consists only of 8 basic symbols:
-- '\+', '\-' Add/Subtract to the current memory location
-- '<', '>' Move memory pointer
-- '.', ',' Print to stdout and read input from stdin
-- '[', ']' Begin/End loop. (Loop stops when current memory cell is zero)
+- `\+`, `\-` Add/Subtract to the current memory location
+- `<`, `>` Move memory pointer
+- `.`, `,` Print to stdout and read input from stdin
+- `[`, `]` Begin/End loop. (Loop stops when current memory cell is zero)
 
 This implementation adds 4 new extension symbols:
-- '!' Can be used to clear console
-- '?' Show debug information
-- '\#' Sleeps for 10ms
-- '@' Wait for keypress (input is discarted)
+- `!` Can be used to clear console
+- `?` Show debug information
+- `\#` Sleeps for 10ms
+- `@` Wait for keypress (input is discarted)
 
 ## Build
 
